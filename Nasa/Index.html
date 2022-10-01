@@ -1,26 +1,49 @@
-<html>
+<!DOCTYPE html>
+<html lang="eng">
     <head>
+
+        <link rel="icon" type="image/x-icon" href="Media/favicon.ico">
+
         <link rel="stylesheet" href="Main.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Catamaran:wght@200;600&display=swap" rel="stylesheet">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Catamaran:wght@400;500;700&display=swap" rel="stylesheet">
-        <title>SpaceChallenge</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
+        <title>SpaceChallenge</title>
+        
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <meta name="keywords" content="James Webb, telescope, spaceappchallenge, space, nasa, 2022"/>
+        <meta name="description" content="This site is about the James Webb telescope."/>
+        <meta name="subject" content="James Webb">
+        <meta name="language" content="EN">
+        <meta name="topic" content="James Webb">
+        <meta name="summary" content="YES">
+        
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
         <script type="module" src="https://unpkg.com/@google/model-viewer@2.0.2/dist/model-viewer.min.js"></script>
     </head>
     <body>
+        <!-- NAV START -->
+
         <nav class="topnav">
-            <div class="logo"><img src="Media/LogoWhite.png" alt=""></div>
+            <div class="logo"><a href="#"><img src="Media/LogoWhite.png" alt=""></a></div>
             <ul class="navlist">
-                <li><a href='https://youtu.be/dQw4w9WgXcQ'>HOME</a></li>
-                <li><a href="#About">ABOUT</a></li>
-                <li><a href="#Skills">SKILLS</a></li>
-                <li><a href="#Experience">EXPERIENCE</a></li>
+                <a href="javascript:void(0);" class="burger"><i class="fa fa-bars"></i></a>
+                <div class = "menu">
+                    <li><a href='https://youtu.be/dQw4w9WgXcQ'>HOME</a></li>
+                    <li><a href="#About">ABOUT</a></li>
+                    <li><a href="#Skills">SKILLS</a></li>
+                    <li><a href="#Experience">EXPERIENCE</a></li>
+                </div>
             </ul>
         </nav>
+
+        <!-- NAV END -->
+
         <div class="StatBackground">
             <img src="Media//Stars.png" alt="">
         </div>
@@ -28,16 +51,14 @@
         <div class="Page-1" id ="Home">
             <img src="Media/Rocket.png" alt="">
             <img src="Media/Mountain.png" alt="">
-            <!-- <div class="RocketPath"></div> -->
-            <!-- <div class="Namebox"><h1>Joel T Vadakekalam <br>Tech <br>Enthusiast</h1></div> -->
         </div>
             
         <br><div class="Page-2" id="About">
             <div class="planet1"><img src="Media/Planets/Planets_0006_Earth.png" alt=""></div>
             <div class="planet2"><img src="Media/Planets/Planets_0007_Layer-6.png" alt=""></div>
-            <div class="textbox tb1">&emsp;&ensp;I'm a Tech Enthusiast working on my web development and python analytical skills. Im familiar with both C++ and Java Lorem ipsum dolor, sit amet consectetur ador, sit amet consipisicing elit. Voluptates, laboriosam. </div>
-            <div class="textbox tb2">Hi, I'm Joel a B-Tech Student at Mar Athanasius College of Engineering Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, nihilsit amet consectetur adipisic?</div>
-            <svg >
+            <div class="textbox tb1">&emsp;&ensp; Lorem ipsum dolor, sit amet consectetur ador, sit amet consipisicing elit. Voluptates, laboriosam. </div>
+            <div class="textbox tb2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, nihilsit amet consectetur adipisic?</div>
+            <svg>
                 <line x1="77.5%" y1="1.5%" x2="50.5%" y2="97%"></line>
             </svg>
             <svg>
@@ -46,25 +67,44 @@
         </div>
 
         <br><div class="Page-3" id="Skills">
-            <img src="Media/Planets/Planets_0003_Sun.png" alt="">
-            <div class="orbit_1"></div>
-            <div class="orbit_2"></div>
-            <div class="orbit_3"></div>
-            
-            <div class="skillcircle sc1"><img src="Media/Skills/c++.png" alt=""></div>
-            <div class="skillcircle sc2"><img src="Media/Skills/css.png" alt=""></div>
-            <div class="skillcircle sc3"><img src="Media/Skills/html.png" alt=""></div>
-            <div class="skillcircle sc4"><img src="Media/Skills/speak.png" alt=""></div>
-            <div class="skillcircle sc5"><img src="Media/Skills/people.png" alt=""></div>
-            <div class="skillcircle sc6"><img src="Media/Skills/python.png" alt=""></div>
-        </div>
-
-        <br><div class="Page-4" id="Experience">
             <h1>3D MODEL OF JWST</h1>
             <model-viewer alt="Neil" src="Media/Objects/JWST.glb" camera-controls auto-rotate></model-viewer>
         </div>
-        
-        
-       
+
+        <br><div class="Page-4" id="Experience">
+
+            <!-- QUIZ START -->
+            <div class="start_btn"><button>Start Quiz</button></div>
+            <div class="quiz_box">
+                <section>
+                    <div class="que_text">
+                    </div>
+                    <div class="option_list">
+                    </div>
+                </section>
+                <footer>
+                    <div class="total_que">
+                    </div>
+                    <button class="next_btn">Next</button>
+                </footer>
+            </div>
+            <div class="result_box">
+                <div class="icon">
+                </div>
+                <div class="score_text">
+                    <!-- Here I've not inserted Score Result from JavaScript -->
+                </div>
+                <div class="buttons">
+                    <button class="restart">Replay Quiz</button>
+                    <button class="quit">Quit Quiz</button>
+                </div>
+            </div>
+            <!-- QUIZ END -->
+
+            <script src="js/questions.js"></script>
+            <script src="js/burger.js"></script>
+            <script src="js/script.js"></script>
+
+        </div> 
     </body>
 </html>
