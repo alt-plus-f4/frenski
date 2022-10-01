@@ -2,71 +2,101 @@
 let questions = [
     {
     numb: 1,
-    question: "What does HTML stand for?",
-    answer: "Hyper Text Markup Language",
+    question: "What shape is the James Webb Space Telescope's primary mirror?",
+    answer: "Honeycomb-shaped",
     options: [
-      "Hyper Text Preprocessor",
-      "Hyper Text Markup Language",
-      "Hyper Text Multiple Language",
-      "Hyper Tool Multi Language"
+      "Rectangular",
+      "Honeycomb-shaped",
+      "Square-shaped",
+      "Circular"
     ]
   },
     {
     numb: 2,
-    question: "What does CSS stand for?",
-    answer: "Cascading Style Sheet",
+    question: "What is the sunshade's primary purpose?",
+    answer: "All of the above",
     options: [
-      "Common Style Sheet",
-      "Colorful Style Sheet",
-      "Computer Style Sheet",
-      "Cascading Style Sheet"
+      "To protect the telescope from the light and heat of Earth",
+      "To protect the telescope from the light of the Sun",
+      "To protect the telescope from the light and heat of the moon",
+      "All of the above"
     ]
   },
     {
     numb: 3,
-    question: "What does PHP stand for?",
-    answer: "Hypertext Preprocessor",
+    question: "Which rocket will launch the JWST?",
+    answer: "Ariane 5",
     options: [
-      "Hypertext Preprocessor",
-      "Hypertext Programming",
-      "Hypertext Preprogramming",
-      "Hometext Preprocessor"
+      "Apollo 11",
+      "Tinky Winky's Voyage",
+      "Ariane 5",
+      "Ariane 4"
     ]
   },
     {
     numb: 4,
-    question: "What does SQL stand for?",
-    answer: "Structured Query Language",
+    question: "JWST in the Optical Telescope Element, consists of __ hexagonal mirror segments?",
+    answer: "18",
     options: [
-      "Stylish Question Language",
-      "Stylesheet Query Language",
-      "Statement Question Language",
-      "Structured Query Language"
+      "08",
+      "18",
+      "28",
+      "78"
     ]
   },
     {
     numb: 5,
-    question: "What does XML stand for?",
-    answer: "eXtensible Markup Language",
+    question: "The JWTS hexagonal mirror segments are made of...",
+    answer: "Gold-plated beryllium",
     options: [
-      "eXtensible Markup Language",
-      "eXecutable Multiple Language",
-      "eXTra Multi-Program Language",
-      "eXamine Multiple Language"
+      "Gold-plated beryllium",
+      "Gold-plated lithium",
+      "Gold-plated aluminium",
+      "Gold-plated germanium"
     ]
   },
-  // you can uncomment the below codes and make duplicate as more as you want to add question
-  // but remember you need to give the numb value serialize like 1,2,3,5,6,7,8,9.....
-
-  //   {
-  //   numb: 6,
-  //   question: "Your Question is Here",
-  //   answer: "Correct answer of the question is here",
-  //   options: [
-  //     "Option 1",
-  //     "option 2",
-  //     "option 3",
-  //     "option 4"
-  //   ]
-  // },
+  {
+    numb: 6,
+    question: "JWST is deployed in space near the...",
+    answer: "Sun–Earth L2",
+    options: [
+      "Sun–Earth L2",
+      "Sun–Earth L5",
+      "Moon–Earth L2",
+      "None of the above"
+    ]
+  },
+  {
+    numb: 7,
+    question: "JWST is launched on:",
+    answer: "25th December 2021",
+    options: [
+      "20th December 2021",
+      "20th November 2021",
+      "25th December 2021",
+      "25th November 2021"
+    ]
+  },
+  {
+    numb: 8,
+    question: "What is the mirror diameter of JWST?",
+    answer: "21ft 4in",
+    options: [
+      "21ft 4in",
+      "10ft",
+      "14ft 4in",
+      "5ft 7in"
+    ]
+  },
+  {
+    numb: 9,
+    question: "James Webb Space Telescope Development began in...",
+    answer: "1996",
+    options: [
+      "1991",
+      "1996",
+      "2006",
+      "2001"
+    ]
+  }
 ];
