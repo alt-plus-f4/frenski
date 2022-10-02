@@ -1,5 +1,7 @@
 :root{font-family: 'Catamaran', sans-serif;}
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -16,7 +18,7 @@ html{scroll-behavior: smooth;scroll-snap-type:y proximity;}
 .StatBackground img{min-height: 100%; min-width: 100%; width: auto;}
 
 .logo{height:95%;width:5%;padding: 0% 0px 0px 2%;float:left;}
-.logo img{height:80%;width:80%;}
+.logo img{height:110%;width:110%;}
 
 .topnav{max-height:10%;width:100%;background-color: back;margin-top:0.5%;position: fixed; z-index: 1000; overflow: hidden;}
 .burger{color: grey; display: none; transition: color 0.3s;}
@@ -28,8 +30,8 @@ html{scroll-behavior: smooth;scroll-snap-type:y proximity;}
 
 
 .Page-1{scroll-snap-align:start;width:100%;height:100vh;}
-.Page-1 img:nth-of-type(1){position: absolute;margin-top: 42%;margin-left: 52%;max-height:23%; max-width:10%;  z-index:-1; animation:rocketfly 3s ease-in 1 normal forwards;}
-.Page-1 img:nth-of-type(2){width:100%;max-height:90%;margin-top: 5%;}
+/* .Page-1 img:nth-of-type(1){position: absolute;margin-top: 42%;margin-left: 52%;max-height:23%; max-width:10%;  z-index:-1; animation:rocketfly 3s ease-in 1 normal forwards;}
+.Page-1 img:nth-of-type(2){width:100%;max-height:90%;margin-top: 5%;} */
 
 .RocketPath{position: absolute;background-color: #fee143;top:99%;left: 55%;width: 5%;height:5px;transform-origin: left;animation:path 3s ease-in 1 normal forwards;transition: ease-in-out 300ms;z-index: -2;  }
 .namebox{font-family: 'Bebas Neue', cursive;position: absolute;background: -webkit-linear-gradient(-45deg,#fee143,#ab233b);-webkit-background-clip: text;background-clip: text;-webkit-text-fill-color: transparent;left:57%;top:35%;animation: appear 3s ease-in 1 normal forwards;transform-origin: left;}
@@ -49,8 +51,18 @@ svg:nth-of-type(2){ position: relative;height:30%;width:24%;top: -60%;left: 50%;
 .Page-3{scroll-snap-align:start;width:100%;height:100vh;color: white;text-align: center;align-items: center; padding-top: 5%;}
 .Page-4{scroll-snap-align:start;width:100%;height:100vh;}
 .Page-4 img{/*Sun*/position: absolute;padding: 0%;margin: 20% 0% 0% 43%;max-width: 12%;height: auto;}
+.Page-5{scroll-snap-align:end;width:100%;height:50vh; margin-top: 30vh; background: #061a24b1;}
+.Page-5 h1{font-size: 5rem; color: white; font-family: 'Roboto', sans-serif; padding: 5rem;}
 
 model-viewer{ background-color: #8d8c965b; border-radius: 5%;width: 50%;height: 80%;margin: 0 auto;}
+
+.btn {display:inline-block;text-decoration: none;font-size:1.2rem;line-height:1.5em;font-weight:400;text-transform:uppercase;color:#fff; margin:1rem; padding:10px 20px;background-color:transparent;border:2px solid #335E6F;border-radius:2px;letter-spacing:0.25rem;transition:all 0.25s ease}
+.btn:hover {color:#fff;background-color:#335E6F;transform:translateY(-0.15rem)}
+.btn.active:hover {transform:none;cursor:default}
+.btn.active {color:#fff;background-color:#335E6F}
+
+.social{margin-top: 3rem;}
+.social a{ color: white;font-size: 3rem;margin-right: 1rem;padding: 0.5rem;}
 
 .start_btn,
 .quiz_box,
