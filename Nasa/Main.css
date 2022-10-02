@@ -29,7 +29,7 @@ html{scroll-behavior: smooth;scroll-snap-type:y proximity;}
 .menu{display: flex; justify-content: space-between; width: 90%;}
 
 
-.Page-1{ width:100%; height: 15vh; text-align: center;}
+.Page-1{width:100%; height: 15vh; text-align: center;}
 .title{position: relative; color:white; font-size: 460%; width: 100%; top: 10vh;}
 
 .Page-2{width:100%; height:150vh;}
@@ -38,10 +38,10 @@ html{scroll-behavior: smooth;scroll-snap-type:y proximity;}
 .column {float: left; width: 50%; padding: 5px;}
 .row::after {content: ""; clear: both; display: table;}
 
-.Page-3{scroll-snap-align:start;width:100%;height:100vh;color: white;text-align: center;align-items: center; padding-top: 5%;}
-.Page-4{scroll-snap-align:start;width:100%;height:70vh;}
+.Page-3{width:100%;height:100vh;color: white;text-align: center;align-items: center; padding-top: 5%;}
+.Page-4{width:100%;height:70vh;}
 .Page-4 img{/*Sun*/position: absolute;padding: 0%;margin: 20% 0% 0% 43%;max-width: 12%;height: auto;}
-.Page-5{scroll-snap-align:end;width:100%;height:50vh; margin-top: 30vh; background: #061a24b1;}
+.Page-5{width:100%;height:50vh; margin-top: 30vh; background: #061a24b1;}
 .Page-5 h1{font-size: 5rem; color: white; font-family: 'Roboto', sans-serif; padding: 5rem;}
 
 model-viewer{ background-color: #8d8c965b; border-radius: 5%;width: 50%;height: 80%;margin: 0 auto;}
