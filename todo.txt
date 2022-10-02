@@ -1,6 +1,0 @@
-rename nav
-add about us
-add desc about the quiz
-add landing page introduction
-readme
-presentation
