@@ -3,9 +3,11 @@ const start_btn = document.querySelector(".start_btn button");
 const quiz_box = document.querySelector(".quiz_box");
 const result_box = document.querySelector(".result_box");
 const option_list = document.querySelector(".option_list");
+const quiz_text = document.querySelector(".quiz_text");
 
 // if continueQuiz button clicked
 start_btn.onclick = ()=>{
+    quiz_text.style.display = "none";
     quiz_box.classList.add("activeQuiz"); //show quiz box
     start_btn.remove();
     showQuetions(que_count); //calling showQestions function

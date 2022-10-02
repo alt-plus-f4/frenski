@@ -117,6 +117,8 @@ model-viewer{ background-color: #8d8c965b; border-radius: 5%;width: 50%;height: 
     font-weight: 600;
 }
 
+.quiz_text{color: white; font-size: 40px;}
+
 section{
     padding: 25px 30px 20px 30px;
     background: transparent;
