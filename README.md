@@ -1,2 +1,3 @@
-# frenski
-NASA International Space Apps Challenge 2022 submission from team School Graduates from TUES
+#NASA International Space Apps Challenge 2022 submission from team School Graduates from TUES
+
+This project consists of a website, which has information and pictures about and from the James Webb Space Telescope. The information includes an informative text and a 3D model of the telescope. The website includes a quiz, which let's the user choose between 4 different answers and shows which one is the right one by using colors.
